@@ -2,6 +2,7 @@
 ## Lesson 6
 
 <h3> Perplexity </h3> 
+
 * Perplexity is a measure of the quality of a language model. 
 * It is used to quantify how well the model predicts a given text.
 * It is calculated as the exponential of the average negative log-likelihood of the words in the text.
