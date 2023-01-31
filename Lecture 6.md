@@ -9,6 +9,7 @@
 * For example, if a model assigns a high probability to the words in a text, then the perplexity score will be low.
 * If two models are trained on the same data, the model with the lower perplexity score is considered to be a better fit for the data.
 
+
 <p align="center">
 <img src= "https://user-images.githubusercontent.com/45029614/215668503-17a8edab-92d2-4762-88d7-a55f2b66a6da.PNG" width="350" title="Ice Gas">
 </p>
