@@ -25,4 +25,19 @@ For example, consider the following sentence: "I love dogs and cats". If we use 
 
 <table><thead><tr><th></th><th>I</th><th>love</th><th>dogs</th><th>and</th><th>cats</th></tr></thead><tbody><tr><td>I</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><td>love</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td></tr><tr><td>dogs</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td></tr><tr><td>and</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><td>cats</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td></tr></tbody></table>
 
+<h3> Encoding Meaning Components in Vector Differences </h3> Encoding meaning components in vector differences refers to the idea of using the difference between word vectors to represent the meaning of words in NLP. This approach is based on the idea that the meaning of a word can be represented by the relationships it has with other words in the language.
+
+In vector-based word representations, such as word2vec and GloVe, words are represented as vectors in a high-dimensional space. The difference between two word vectors can be interpreted as the relationship between the corresponding words. For example, the difference between the vectors for "king" and "queen" represents the gender-related relationship between the two words.
+
+This idea can be used to encode meaning components in vector differences by defining a set of base vectors (such as gender, tense, and number) and computing the difference between word vectors and the base vectors to encode their meaning components. For example, the difference between the vector for "run" and the base vector for tense represents the tense-related meaning component of the word "run".
+
+Let's assume that we have a set of base vectors that represent different semantic properties such as temperature, solid/liquid state, and color. For example, the temperature base vector could be represented as [1, 0, 0], the solid/liquid base vector could be represented as [0, 1, 0], and the color base vector could be represented as [0, 0, 1].
+
+The word "ice" could be represented as [1, 1, 0], and the word "water" could be represented as [1, 0, 0]. The difference between the word vectors and the base vectors represents the meaning components of the words. For example, the difference between the "ice" vector and the temperature base vector represents the meaning component of temperature for the word "ice", and the difference between the "water" vector and the solid/liquid base vector represents the meaning component of the solid/liquid state for the word "water".
+
+<p align="center">
+![Ice Gas](https://user-images.githubusercontent.com/45029614/215655942-d22248a4-26ab-425b-a14f-194136aa37dc.PNG)
+
+  <img src= "https://user-images.githubusercontent.com/45029614/215655942-d22248a4-26ab-425b-a14f-194136aa37dc.PNG" width="350" title="Ice Gas">
+</p>
 
