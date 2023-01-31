@@ -36,8 +36,6 @@ Let's assume that we have a set of base vectors that represent different semanti
 The word "ice" could be represented as [1, 1, 0], and the word "water" could be represented as [1, 0, 0]. The difference between the word vectors and the base vectors represents the meaning components of the words. For example, the difference between the "ice" vector and the temperature base vector represents the meaning component of temperature for the word "ice", and the difference between the "water" vector and the solid/liquid base vector represents the meaning component of the solid/liquid state for the word "water".
 
 <p align="center">
-![Ice Gas](https://user-images.githubusercontent.com/45029614/215655942-d22248a4-26ab-425b-a14f-194136aa37dc.PNG)
-
-  <img src= "https://user-images.githubusercontent.com/45029614/215655942-d22248a4-26ab-425b-a14f-194136aa37dc.PNG" width="350" title="Ice Gas">
+<img src= "https://user-images.githubusercontent.com/45029614/215655942-d22248a4-26ab-425b-a14f-194136aa37dc.PNG" width="350" title="Ice Gas">
 </p>
 
