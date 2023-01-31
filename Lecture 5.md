@@ -22,6 +22,8 @@
 * The basic idea behind RNNs is to allow information to flow through the network across time steps.
 * At each time step, the hidden state is updated based on the current input and the previous hidden state.
 * This allows the network to maintain information about the context of the input sequence and use that information to make predictions about future inputs.
+* One of the key challenges with training RNNs is the vanishing gradient problem, where the gradients of the network parameters can become very small over time.
+* To address this issue, researchers have developed advanced RNN architectures, such as long-short term memory (LSTM) networks and gated recurrent units (GRUs), which can better maintain information over long sequences.
 
 <p align="center">
 <img src= "https://user-images.githubusercontent.com/45029614/215666692-0b39e123-ca1b-4798-a0ea-16b9a21cb578.PNG">
