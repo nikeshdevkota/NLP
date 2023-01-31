@@ -43,3 +43,29 @@ Dependency grammar has several advantages over phrase structure grammar, includi
 * The choice of algorithm depends on the specific requirements of the task and the characteristics of the language being parsed. 
 * Regardless of the algorithm used, the output of a dependency parse is a graph that captures the relationships between words in a sentence and provides a structural representation of the sentence.
 
+<h3> Treebanks</h3>
+
+* Treebanks are annotated corpora of text that provide a structural representation of the sentences in the text. 
+* Treebanks are widely used in natural language processing (NLP) to train and evaluate NLP models, and to gain insights into the structure and meaning of language.
+* In a treebank, each sentence is annotated with a tree structure that represents the syntactic structure of the sentence. 
+* The tree structure can be either a constituency tree, which represents the sentence as a hierarchy of constituent phrases, or a dependency tree, which represents the relationships between words in a sentence.
+* Treebanks can be annotated with various linguistic annotations, including part-of-speech tags, named entity tags, and coreference information. 
+* The annotation scheme used in a treebank depends on the specific requirements of the NLP task and the characteristics of the language being annotated.
+* There are several well-known treebanks, including the Penn Treebank, the Lancaster-IBM Treebank, and the Universal Dependencies Treebank. 
+* These treebanks have been widely used as benchmark datasets for evaluating NLP models, and have contributed to advances in NLP over the past few decades.
+
+<h3> Projective Parse </h3>
+
+* Projective parse is a type of parse tree used in natural language processing (NLP) to represent the syntactic structure of a sentence. 
+* Projective parses are typically represented as directed acyclic graphs (DAGs), where each node in the graph represents a word in the sentence and the edges represent the relationships between the words.
+* A projective parse is called projective because it preserves the linear order of the words in the sentence, meaning that if two words appear in a certain order in the sentence, then the corresponding nodes in the parse tree must also be ordered in the same way. 
+* This property makes projective parses well-suited for NLP tasks that require the preservation of the original sentence order, such as machine translation.
+* Projective parses are often generated using dependency parsing algorithms, which aim to identify the relationships between words in a sentence and construct a graph-based representation of the sentence structure.
+* Dependency parsing algorithms typically use information from sources such as part-of-speech (POS) tags, syntactic structure, and lexical information to identify the relationships between words in a sentence.
+
+
+
+
+
+
+
