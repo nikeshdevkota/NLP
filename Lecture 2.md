@@ -1,5 +1,5 @@
 # Natural Language Processing
-## Lesson 1
+## Lesson 2
 
 <h3> Bags of Words </h3>
 
