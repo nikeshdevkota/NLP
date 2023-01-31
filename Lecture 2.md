@@ -21,9 +21,6 @@
 * The basic idea is to count the number of times each pair of words co-occur within a fixed-sized window in the text.
 * The resulting matrix is a symmetrical square matrix where the rows and columns represent words and the cells represent the number of co-occurrences between pairs of words.
 
-	    I	love	dogs	and	cats
-I	      	
-love	1	 0	  1	1	0
-dogs	0	 1	  0	1	1
-and	  0	 1	  1	0	1
-cats	0	 0	  1	1	0
+
+<table><thead><tr><th></th><th>I</th><th>love</th><th>dogs</th><th>and</th><th>cats</th></tr></thead><tbody><tr><td>I</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><td>love</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td></tr><tr><td>dogs</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><td>and</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td></tr><tr><td>cats</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td></tr></tbody></table>
+
