@@ -29,3 +29,17 @@ Dependency grammar has several advantages over phrase structure grammar, includi
 <p align="center">
 <img src= "https://user-images.githubusercontent.com/45029614/215660338-3ea9890b-b9eb-4651-9b6e-5d8b20014832.PNG" width="350" title="Dependency Grammar">
 </p>
+
+<h3> Dependency Parsing </h3>
+
+* Dependency Parsing is the process of analyzing the relationships between words in a sentence to identify the dependencies between them.
+* The goal of dependency parsing is to build a directed acyclic graph (DAG) that captures the relationships between words in a sentence.
+* In a dependency parse, each word in a sentence is represented as a node in the graph, with directed edges representing the relationships between words. 
+* The relationships are typically labeled with grammatical relations, such as subject, object, or modifier.
+* The result is a graph that captures the relationships between words in a sentence and provides a structural representation of the sentence.
+* Dependency parsing is widely used in NLP for tasks such as information extraction, machine translation, and text classification. 
+* It is particularly useful for handling languages with free word order, where the relationships between words are more important than their linear order.
+* There are several algorithms for performing dependency parsing, including transition-based parsing, graph-based parsing, and neural network-based parsing.
+* The choice of algorithm depends on the specific requirements of the task and the characteristics of the language being parsed. 
+* Regardless of the algorithm used, the output of a dependency parse is a graph that captures the relationships between words in a sentence and provides a structural representation of the sentence.
+
