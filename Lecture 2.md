@@ -15,3 +15,15 @@
 
 * Skip-gram: The Skip-gram model predicts the surrounding context words based on a target word. The input to the model is a target word, and the output is the surrounding context words in the window. In the negative sampling technique, a small number of negative examples (random words from the vocabulary that are not in the context window) are selected for each input word. The network is trained to predict the context words as positive examples and the negative examples as negative examples. This allows the model to focus on the most informative examples and reduce the number of computations required to train the network.
 
+<h3> Window based Co-occurence Matrix </h3> 
+
+* A window-based co-occurrence matrix is a method of representing the relationship between words in a corpus of text.
+* The basic idea is to count the number of times each pair of words co-occur within a fixed-sized window in the text.
+* The resulting matrix is a symmetrical square matrix where the rows and columns represent words and the cells represent the number of co-occurrences between pairs of words.
+
+	    I	love	dogs	and	cats
+I	      	
+love	1	 0	  1	1	0
+dogs	0	 1	  0	1	1
+and	  0	 1	  1	0	1
+cats	0	 0	  1	1	0
