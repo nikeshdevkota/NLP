@@ -47,7 +47,7 @@ In an RNN Attention mechanism, attention weights are calculated based on the hid
 
 
 <p align="center">
-<img src= "https://user-images.githubusercontent.com/45029614/221072736-8a5f8b22-f131-47cb-8bd3-094d9c359cde.PNG" width="350" title="Ice Gas">
+<img src= "https://user-images.githubusercontent.com/45029614/221072736-8a5f8b22-f131-47cb-8bd3-094d9c359cde.PNG" width="550" title="Attention Mechanism">
 </p>
 
 There are several types of attention mechanisms used in NLP, including additive attention, multiplicative attention, and self-attention. Additive attention involves computing a weighted sum of the input sequence using a learned weight matrix, while multiplicative attention involves computing the attention weights as a dot product between the input sequence and a learned weight matrix. Self-attention, also known as transformer attention, involves computing attention weights between different positions in the input sequence, enabling the model to attend to the most relevant parts of the input at each step of processing. Overall, attention mechanisms have proven to be a powerful tool in NLP, enabling models to achieve state-of-the-art results on a wide range of tasks, including machine translation, language modeling, and text classification.
