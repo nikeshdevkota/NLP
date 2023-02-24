@@ -3,7 +3,7 @@
 
 <h3>Problems with RNN </h3>
 
-Vanishing Gradient Problem: RNNs are trained using backpropagation, where the error signal is propagated backwards through the network to adjust the weights. However, this process can lead to the gradients becoming very small as they are propagated backwards through time, which can make it difficult for the network to learn long-term dependencies.
+* Vanishing Gradient Problem: RNNs are trained using backpropagation, where the error signal is propagated backwards through the network to adjust the weights. However, this process can lead to the gradients becoming very small as they are propagated backwards through time, which can make it difficult for the network to learn long-term dependencies.
 
 * Exploding Gradient Problem: On the other hand, in some cases, gradients can also become very large, which can cause the weights to explode and the network to become unstable.
 
