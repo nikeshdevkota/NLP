@@ -13,6 +13,7 @@
 
 * Difficulty with Parallelization: RNNs are difficult to parallelize, which can make them slower to train on large datasets.
 
+<h3>Problems with LSTM </h3>
 
 Despite being good at capturing long-term dependencies, LSTM networks also can still have difficulty in processing and understanding very long sequences, as the model may lose track of important information from the beginning of the sequence.
 
