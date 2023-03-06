@@ -20,6 +20,7 @@
 </p>
 
 <h4> Encoder </h4>
+
 * The input (source) and output (target) sequence embeddings are added with positional encoding before being fed into the encoder and the decoder that stack modules based on self-attention.
 * Transformer encoder is a stack of multiple identical layers, where each layer has two sublayers.
 * The first is a multi-head self-attention pooling and the second is a positionwise feed-forward network.
@@ -27,6 +28,7 @@
 *  Inspired by the ResNet, a residual connection is employed around both sublayers. 
 
 <h4> Decoder </h4>
+
 * The Transformer decoder is also a stack of multiple identical layers with residual connections and layer normalizations. 
 * Besides the two sublayers described in the encoder, the decoder inserts a third sublayer, known as the encoder-decoder attention, between these two. 
 * In the encoder-decoder attention, queries are from the outputs of the previous decoder layer, and the keys and values are from the Transformer encoder outputs. 
