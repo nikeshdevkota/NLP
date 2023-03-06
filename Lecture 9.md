@@ -13,3 +13,9 @@
 * Transformers consist of an encoder and a decoder. 
 * The encoder processes the input sequence and generates a representation that captures the meaning of the text. 
 * The decoder uses the encoder's representation to generate the output sequence, such as a translation or a summary.
+
+
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/45029614/222999525-a4a98828-8e77-4146-9aab-cedc501fb297.svg" width="550" title="Transformers">
+</p>
+
