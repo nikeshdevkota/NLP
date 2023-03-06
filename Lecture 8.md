@@ -1,5 +1,5 @@
 # Natural Language Processing
-## Lesson 7
+## Lesson 8
 
 <h3>Problems with RNN </h3>
 
