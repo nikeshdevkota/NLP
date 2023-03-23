@@ -30,5 +30,15 @@ Top-k sampling is useful for avoiding the problem of repetition in language gene
 
 <p align="center">
 <img src= "https://user-images.githubusercontent.com/45029614/227136674-90b5b81d-f2bf-4056-80f9-5d7df3916fd5.PNG" width="550" title="Transformers">
-</p>)
+</p>
+
+<h3> Decoding: Top-p (nucleus) sampling </h3>
+
+Top-p, also known as nucleus sampling, is a decoding strategy used in natural language processing (NLP) to generate text from a language model. It involves selecting the smallest possible set of words that make up a cumulative probability of p, and sampling from this set of words to generate the next word in the sequence.
+
+For example, if p=0.9, the model's output distribution might be [0.05, 0.02, 0.01, 0.1, 0.05, 0.1, 0.01, 0.02, 0.2, 0.44] for a given time step. Nucleus sampling would involve selecting the smallest set of words that make up at least 90% of the total probability mass (in this case, the first 9 words), and sampling from this subset to generate the next word in the sequence.
+
+Nucleus sampling is useful for generating diverse and interesting text, while still maintaining some level of coherence and relevance to the context. It allows the model to explore a wider range of possible words and phrases, while still ensuring that the generated text is likely to be related to the input text.
+
+One advantage of nucleus sampling over top-k sampling is that it avoids the problem of abrupt changes in the tone or style of the generated text, as it maintains a more gradual transition between words and phrases. However, nucleus sampling can be computationally expensive, as it requires the model to compute the cumulative probabilities of all possible words at each time step.
 
