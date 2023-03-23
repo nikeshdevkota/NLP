@@ -35,3 +35,15 @@ Pretraining whole models in NLP has become a popular technique in recent years, 
 <img src= "https://user-images.githubusercontent.com/45029614/227130309-22c18e44-101b-4452-87d0-0f18279d3425.PNG" width="550" title="Transformers">
 </p>
 
+<h4> Pretraining Decoders </h4>
+
+Pretraining decoders in NLP refers to the process of training the decoder component of a sequence-to-sequence model on a large corpus of text data, without any specific task in mind. This is done in order to learn general language representations that can be fine-tuned for specific tasks, such as machine translation, summarization, or text generation.
+
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/45029614/227131339-d45f95ee-3a83-490c-980e-539f55df7e75.PNG" width="550" title="Transformers">
+</p>
+
+Once the decoder is pretrained, it can be combined with a task-specific encoder and fine-tuned for specific tasks. For example, in machine translation, the task-specific encoder and decoder would be trained on parallel corpora of source and target language sentences, while in text generation, the task-specific encoder and decoder might be trained on a corpus of specific text types, such as news articles or product reviews.
+
+Pretraining decoders in NLP has become a popular technique in recent years, with the introduction of models such as GPT (Generative Pre-trained Transformer) and GPT-2. These models have achieved state-of-the-art performance on various language generation tasks, such as story generation, question answering, and text completion.
+
