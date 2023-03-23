@@ -32,7 +32,7 @@ Once the whole model is pretrained, it can be fine-tuned for specific tasks by a
 <img src= "https://user-images.githubusercontent.com/45029614/227130309-22c18e44-101b-4452-87d0-0f18279d3425.PNG" width="550" title="Transformers">
 </p>
 
-<h4> Pretraining Decoders </h4>
+<h3> Pretraining Decoders </h3>
 
 Pretraining decoders in NLP refers to the process of training the decoder component of a sequence-to-sequence model on a large corpus of text data, without any specific task in mind. This is done in order to learn general language representations that can be fine-tuned for specific tasks, such as machine translation, summarization, or text generation.
 
@@ -43,3 +43,18 @@ Pretraining decoders in NLP refers to the process of training the decoder compon
 Once the decoder is pretrained, it can be combined with a task-specific encoder and fine-tuned for specific tasks. For example, in machine translation, the task-specific encoder and decoder would be trained on parallel corpora of source and target language sentences, while in text generation, the task-specific encoder and decoder might be trained on a corpus of specific text types, such as news articles or product reviews.
 Pretraining decoders in NLP has become a popular technique in recent years, with the introduction of models such as GPT (Generative Pre-trained Transformer) and GPT-2. These models have achieved state-of-the-art performance on various language generation tasks, such as story generation, question answering, and text completion.
 
+<h3> Generative Pretrained Transformer (GPT) </h3>
+
+Generative Pretrained Transformer (GPT) is a deep learning model for natural language processing (NLP) tasks. It was introduced in 2018 by OpenAI and has since been used for various tasks, such as text generation, summarization, and machine translation. The GPT architecture is based on the transformer model, which is a neural network architecture that allows for parallel processing of input sequences. The transformer model consists of a series of encoder and decoder layers, which are designed to capture the contextual relationships between words in a sentence.
+
+GPT uses an unsupervised pretraining approach to learn a language model on a large corpus of text data. During pretraining, the model is trained to predict the next word in a sequence given the previous words, using a technique called autoregression. GPT is trained on a massive amount of text data, such as books, articles, and web pages, to learn general language patterns and relationships.
+
+After pretraining, the GPT model can be fine-tuned on specific NLP tasks by adding a task-specific output layer and training the model on a task-specific dataset. For example, to perform sentiment analysis, the GPT model can be fine-tuned on a dataset of labeled sentiment data, where the output layer is trained to predict the sentiment of a given input sentence.
+
+GPT has been widely used in various NLP applications due to its ability to generate high-quality text output. One of its notable applications is in text generation, where the model can be trained to generate coherent and diverse text, such as articles, stories, and dialogues. GPT-2, an improved version of GPT, was released in 2019 and has even larger capacity and higher quality text generation capabilities.
+
+<h3>Pretraining Encoders</h3>
+
+Pretraining encoders in NLP refers to the process of training the encoder component of a sequence-to-sequence model on a large corpus of text data, without any specific task in mind. The goal of pretraining encoders is to learn general language representations that can be fine-tuned for specific NLP tasks, such as machine translation, text classification, and named entity recognition.
+
+Pretraining encoders in NLP can be done using unsupervised learning techniques such as autoencoding or masked language modeling. In autoencoding, the encoder and decoder are trained to reconstruct the input sequence from a compressed representation of the sequence. In masked language modeling, a small percentage of words in the input sequence are randomly masked, and the encoder is trained to predict the masked words from the remaining unmasked words.
