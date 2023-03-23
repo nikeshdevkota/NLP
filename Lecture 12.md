@@ -13,3 +13,8 @@ NLG systems use algorithms and rules to transform data, structured input, or oth
 NLG is a multi-disciplinary field that draws on expertise from computer science, computational linguistics, psychology, and linguistics. It is used in a wide range of applications, including chatbots, virtual assistants, automated news reports, product descriptions, and personalized recommendations.
 There are several approaches to NLG, including rule-based systems, template-based systems, and machine learning-based systems. Rule-based systems use a set of predefined rules to generate natural language text. Template-based systems use pre-written templates to generate text that can be customized based on the input data. Machine learning-based systems use statistical models and deep learning algorithms to generate natural language text based on large amounts of training data.
 NLG can be used to generate text in a variety of styles, including informative, persuasive, and entertaining. It can also be used to generate text in multiple languages, making it a powerful tool for global communication.
+
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/45029614/227135180-f9368632-48e9-4ac1-ac9b-60fb31d5fe35.PNG" width="550" title="Transformers">
+</p>
+
