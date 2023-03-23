@@ -61,3 +61,11 @@ However, there are also challenges to using pretrained entity embeddings, includ
 <img src= "https://user-images.githubusercontent.com/45029614/227146813-fff2a802-cdc9-4164-95a0-d22f2f321686.PNG" width="550" title="Transformers">
 </p>
 
+<h4> ERNIE(Enhanced Language Representation with Informative Entities)</h4>
+
+ERNIE is a large-scale language model developed by Baidu's Institute of Deep Learning (IDL) that is designed to better capture the relationship between words and entities in natural language text. ERNIE is based on the popular transformer architecture used in models like BERT and GPT, but incorporates additional training objectives that focus on entity-level tasks, such as entity recognition and relation extraction.
+
+One of the key innovations of ERNIE is its use of entity-level masking during training, which involves masking out entire named entities in the input text and training the model to predict them based on the surrounding context. This allows the model to better capture the relationships between words and entities, and has been shown to improve performance on tasks such as named entity recognition and entity linking. ERNIE also incorporates additional training objectives that focus on semantic and syntactic relationships between entities, such as entity classification and entity relation extraction. These objectives are designed to help the model better understand the complex relationships between entities in natural language text, and have been shown to improve performance on a wide range of NLP tasks.
+
+
+
