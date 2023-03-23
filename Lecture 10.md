@@ -58,3 +58,19 @@ GPT has been widely used in various NLP applications due to its ability to gener
 Pretraining encoders in NLP refers to the process of training the encoder component of a sequence-to-sequence model on a large corpus of text data, without any specific task in mind. The goal of pretraining encoders is to learn general language representations that can be fine-tuned for specific NLP tasks, such as machine translation, text classification, and named entity recognition.
 
 Pretraining encoders in NLP can be done using unsupervised learning techniques such as autoencoding or masked language modeling. In autoencoding, the encoder and decoder are trained to reconstruct the input sequence from a compressed representation of the sequence. In masked language modeling, a small percentage of words in the input sequence are randomly masked, and the encoder is trained to predict the masked words from the remaining unmasked words.
+
+Pretraining encoders in NLP has become a popular technique in recent years, with the introduction of models such as BERT (Bidirectional Encoder Representations from Transformers) and RoBERTa (Robustly Optimized BERT Pretraining Approach). These models have achieved state-of-the-art performance on various NLP tasks, such as sentiment analysis, question answering, and language modeling.
+
+<h3> BERT: Bidirectional Encoder Representations from Tranformers </h3>
+
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/45029614/227133444-02b372cc-509a-43e5-84ab-67740095a7c2.PNG" width="550" title="Transformers">
+</p>![BERT]
+
+BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained transformer-based deep learning model for natural language processing (NLP). BERT was introduced by researchers at Google in 2018 and has since become one of the most widely used NLP models.
+
+At a high level, BERT is a deep neural network that takes a sequence of words as input and outputs a vector representation, or embedding, for each word in the sequence. BERT is unique in that it uses a bidirectional transformer architecture, which means that it takes into account both the left and right context of each word when generating its embeddings. This allows BERT to capture more complex relationships between words and to better understand the context in which they appear. BERT is pre-trained on large amounts of text data using two main tasks: masked language modeling and next sentence prediction. In masked language modeling, BERT is trained to predict a randomly masked word in a sentence based on the surrounding words. This task allows BERT to learn a deep understanding of the relationships between words in a sentence. In next sentence prediction, BERT is trained to determine whether two sentences are consecutive in the original text or not. This task allows BERT to understand the relationships between sentences and the overall structure of a text.
+
+After pre-training, BERT can be fine-tuned on a wide range of NLP tasks such as sentiment analysis, named entity recognition, and question answering. Fine-tuning involves adding a task-specific output layer to the pre-trained BERT model and training the entire model on a smaller dataset specific to the task. Overall, BERT is a powerful NLP model that has achieved state-of-the-art results on a wide range of benchmark datasets and tasks. Its ability to capture complex relationships between words and understand the context in which they appear has made it a popular choice for many NLP applications.
+
+
