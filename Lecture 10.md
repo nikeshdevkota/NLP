@@ -30,3 +30,8 @@ Pretraining whole models in NLP is typically done using unsupervised learning te
 Once the whole model is pretrained, it can be fine-tuned for specific tasks by adding a task-specific output layer to the pretrained model and fine-tuning the entire model on the task-specific data. Fine-tuning allows the model to adapt its learned representations to the specific task at hand, while retaining the general language knowledge acquired during pretraining.
 
 Pretraining whole models in NLP has become a popular technique in recent years, with the introduction of large pretrained models such as BERT, GPT-2, and RoBERTa. These models have achieved state-of-the-art performance on a wide range of NLP tasks, and have paved the way for the development of new and more advanced models that can learn even more nuanced and complex language representations.
+
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/45029614/227130309-22c18e44-101b-4452-87d0-0f18279d3425.PNG" width="550" title="Transformers">
+</p>
+
