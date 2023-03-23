@@ -24,11 +24,8 @@ At each iteration of the algorithm, the most frequently occurring pair of bytes 
 <h3> Pretraining Models in NLP </h3>
 
 Pretraining whole models in NLP refers to the process of training a deep learning model on a large corpus of text data, without any specific task in mind. This is done in order to learn general language representations that can be fine-tuned for specific tasks, such as sentiment analysis, named entity recognition, or machine translation.
-
 Pretraining whole models in NLP is typically done using unsupervised learning techniques, such as autoencoding, language modeling, or masked language modeling. In autoencoding, the model is trained to reconstruct the input sequence from a corrupted version of the same sequence. In language modeling, the model is trained to predict the next word in a sequence given the previous words. In masked language modeling, a random subset of the input tokens is masked, and the model is trained to predict the masked tokens based on the context.
-
 Once the whole model is pretrained, it can be fine-tuned for specific tasks by adding a task-specific output layer to the pretrained model and fine-tuning the entire model on the task-specific data. Fine-tuning allows the model to adapt its learned representations to the specific task at hand, while retaining the general language knowledge acquired during pretraining.
-
 Pretraining whole models in NLP has become a popular technique in recent years, with the introduction of large pretrained models such as BERT, GPT-2, and RoBERTa. These models have achieved state-of-the-art performance on a wide range of NLP tasks, and have paved the way for the development of new and more advanced models that can learn even more nuanced and complex language representations.
 
 <p align="center">
@@ -44,6 +41,5 @@ Pretraining decoders in NLP refers to the process of training the decoder compon
 </p>
 
 Once the decoder is pretrained, it can be combined with a task-specific encoder and fine-tuned for specific tasks. For example, in machine translation, the task-specific encoder and decoder would be trained on parallel corpora of source and target language sentences, while in text generation, the task-specific encoder and decoder might be trained on a corpus of specific text types, such as news articles or product reviews.
-
 Pretraining decoders in NLP has become a popular technique in recent years, with the introduction of models such as GPT (Generative Pre-trained Transformer) and GPT-2. These models have achieved state-of-the-art performance on various language generation tasks, such as story generation, question answering, and text completion.
 
