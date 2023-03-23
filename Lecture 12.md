@@ -18,3 +18,12 @@ NLG can be used to generate text in a variety of styles, including informative, 
 <img src= "https://user-images.githubusercontent.com/45029614/227135180-f9368632-48e9-4ac1-ac9b-60fb31d5fe35.PNG" width="550" title="Transformers">
 </p>
 
+<h3> Decoding: Top-k sampling </h3>
+
+Top-k sampling is a decoding strategy used in natural language processing (NLP) to generate text from a language model. It involves selecting the top k words with the highest probabilities from the model's output distribution at each step of the decoding process, and sampling from this subset of words to generate the next word in the sequence.For example, if k=5, the model's output distribution might be [0.3, 0.2, 0.1, 0.1, 0.1, 0.1, 0.05, 0.05, 0.05, 0.05] for a given time step. Top-k sampling would involve selecting the top 5 words with the highest probabilities (in this case, the first 5 words), and sampling from this subset to generate the next word in the sequence.
+
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/45029614/227135180-f9368632-48e9-4ac1-ac9b-60fb31d5fe35.PNG" width="550" title="Transformers">
+</p>
+
+Top-k sampling is useful for avoiding the problem of repetition in language generation, where the model tends to generate the same words or phrases over and over again. By constraining the choices for the next word to a smaller set of the most likely options, top-k sampling can encourage the model to generate more diverse and interesting text. One limitation of top-k sampling is that it can lead to abrupt changes in the tone or style of the generated text, as the model may switch between different words or phrases based solely on their probability of occurrence. This can be mitigated by adjusting the value of k or using other decoding strategies, such as beam search or nucleus sampling.
