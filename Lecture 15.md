@@ -32,9 +32,32 @@ Predictions made by LMs are generally make sense (e.g. the correct types), but a
 <img src= "https://user-images.githubusercontent.com/45029614/227145742-ac074bf9-5a5e-4bf6-8b6f-05ae5d0270b8.PNG" width="550" title="Transformers">
 </p>
 
+<h3> Querying language models as knowledge bases </h3>
+
+Querying language models as knowledge bases is a recent development in natural language processing (NLP) that involves using large-scale language models like GPT-3 and BERT as a source of knowledge about the world. This approach is based on the idea that language models have been trained on massive amounts of text data, and have learned to represent the relationships between words and concepts in a way that reflects the real-world knowledge they contain.
+
+One way to query a language model as a knowledge base is to input a natural language question or statement and extract relevant information from the model's output. For example, a user could ask a language model like GPT-3 "Who is the current president of France?" and the model could provide a response such as "The current president of France is Emmanuel Macron."
+
+Another approach is to use a language model to generate a text summary or answer based on a given input text. For example, a user could input a news article about a recent event, and the language model could generate a summary or answer to a specific question based on the content of the article.
+
+Querying language models as knowledge bases has many potential applications in fields such as information retrieval, question answering, and conversational agents. However, there are also challenges and limitations to this approach, including the potential for errors and biases in the model's output, and the need for effective methods to validate and verify the information provided by the model.
 
 <p align="center">
 <img src= "https://user-images.githubusercontent.com/45029614/227146059-c85fb2f6-54f2-4370-8b3e-a53e4fe850d0.PNG" width="550" title="Transformers">
 </p>
 
+<h3>Techniques to add knowledge to LMs </h3>
+
+<h4>Pretrained entity embeddings </h4>
+Pretrained entity embeddings is a technique for adding external knowledge to a language model by incorporating pre-trained embeddings for named entities, such as people, organizations, and locations, into the model's internal representations. Named entity recognition (NER) is a common pre-processing step for many natural language processing (NLP) tasks, and entity embeddings can help improve the performance of these models by adding additional context and information about the entities mentioned in the text.
+
+To use pretrained entity embeddings, a language model is first trained on a large corpus of text data, as is typical in NLP. Then, external knowledge sources are added by incorporating pretrained embeddings for entities such as people, organizations, and locations, which have been trained on a separate corpus of text data. These embeddings can be added to the model as additional input features, or they can be used to initialize the model's internal embeddings.
+
+The benefits of using pretrained entity embeddings include improved accuracy and robustness on tasks such as named entity recognition and relation extraction, as well as the ability to incorporate external knowledge into the model without requiring additional training data. This can be particularly useful in domains where training data is limited, such as in the medical or legal domains.
+
+However, there are also challenges to using pretrained entity embeddings, including the potential for biases and inaccuracies in the external knowledge sources, and the need for effective methods to integrate this knowledge into the model's internal representations. 
+
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/45029614/227146813-fff2a802-cdc9-4164-95a0-d22f2f321686.PNG" width="550" title="Transformers">
+</p>
 
